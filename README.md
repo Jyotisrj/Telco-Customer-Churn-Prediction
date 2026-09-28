@@ -60,7 +60,7 @@ The following models were implemented and compared:
 
 | Model | Accuracy | Precision (Churn) | Recall (Churn) | F1-Score (Churn) |
 | :-------------------------------- | :------- | :---------------- | :------------- | :--------------- |
-| Logistic Regression (Original) | 0.80  ` | ` 0.65 | 0.53 | 0.58 |
+| Logistic Regression (Original) | 0.80 | 0.65 | 0.53 | 0.58 |
 | SVC | 0.80 | 0.67 | 0.48 | 0.56 |
 | Decision Tree | 0.73 | 0.49 | 0.51 | 0.50 |
 | KNN | 0.79 | 0.62 | 0.55 | 0.58 |
