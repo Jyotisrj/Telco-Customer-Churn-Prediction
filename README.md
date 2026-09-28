@@ -72,14 +72,11 @@ The dataset used for this analysis is the [Telco Customer Churn dataset](https:/
 
 | Model | Accuracy | Precision (Churn) | Recall (Churn) | F1-Score (Churn) |
 | :-------------------------------- | :------- | :---------------- | :------------- | :--------------- |
-| Logistic Regression (Original) | `[Accuracy]` | `[Precision]` | `[Recall]` | `[F1-Score]` |
-| SVC | `[Accuracy]` | `[Precision]` | `[Recall]` | `[F1-Score]` |
-| Decision Tree | `[Accuracy]` | `[Precision]` | `[Recall]` | `[F1-Score]` |
-| KNN | `[Accuracy]` | `[Precision]` | `[Recall]` | `[F1-Score]` |
-| Logistic Regression (SMOTE) | `[Accuracy]` | `[Precision]` | `[Recall]` | `[F1-Score]` |
-| Logistic Regression (Tuned) | `[Accuracy]` | `[Precision]` | `[Recall]` | `[F1-Score]` |
+| Logistic Regression (Original) | `0.80  ` | ` 0.65` | `0.53` | `0.58` |
+| SVC | `0.80` | `0.67` | `0.48` | `0.56` |
+| Decision Tree | `0.73` | `0.49` | `0.51` | `0.50` |
+| KNN | `0.79` | `0.62` | `0.55` | `0.58` |
 
-*(Replace `[Accuracy]`, `[Precision]`, `[Recall]`, and `[F1-Score]` with the actual values from your model comparison table once the code has run.)*
 
 ## Business Recommendations
 
@@ -101,20 +98,6 @@ Based on the analysis and model performance, here are some actionable business r
 *   Scikit-learn (for machine learning models, preprocessing, and evaluation)
 *   Imbalanced-learn (for handling imbalanced datasets like SMOTE)
 
-## How to Run the Project
-
-1.  **Clone the Repository:**
-    ```bash
-    git clone [Your GitHub Repo URL]
-    cd [Your Repo Name]
-    ```
-2.  **Install Dependencies:**
-    ```bash
-    pip install pandas numpy scikit-learn matplotlib seaborn imbalanced-learn
-    ```
-3.  **Open the Notebook:**
-    You can open and run the `telco_churn_prediction.ipynb` (or whatever you name your notebook file) using Jupyter Notebook, JupyterLab, or Google Colab.
-4.  **Execute Cells:** Run all the cells in the notebook from top to bottom to replicate the analysis and model training.
 
 ## Future Enhancements
 
